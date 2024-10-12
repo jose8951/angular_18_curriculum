@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col-6 text-center">
+      <div class="fs-1 m-3">{{ curso }}</div>
+    </div>
+    <div class="col-3 d-flex justify-content-center align-items-center">
+      <app-fecha></app-fecha>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-4 fondo"><app-aside></app-aside></div>
+    <div class="col-8 fondo">
+      <div class="row">
+        <div class="col-12" *ngIf="curso$ | async as data">
+          <div class="card mt-5 contenedor_card"
+            *ngFor="let curso of data.cursos">
+            <div class="card-body">
+              <h5 class="card-title fs-5">{{ curso.curso }}</h5>
+              <div class="card-text">{{ curso.centro }}</div>
+              <div class="card-text">{{ curso.duracion }}</div>
+              <div class="card-text">{{ curso.descripcion }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

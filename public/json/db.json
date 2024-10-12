@@ -1,0 +1,156 @@
+{
+  "titulos": [
+    {
+      "estado": "reglada",
+      "titulo": "Ciclo formativo de Grado Superior Desarrolo de aplicaciones WEB",
+      "centro": "Instituto de Educación Secundaria aguadulce",
+      "fecha": "18-06-2021"
+    },
+    {
+      "estado": "reglada",
+      "titulo": "Ciclo formativo de Grado Superior de Aplicaciones multiplataforma.",
+      "centro": "Instituto de Educación Secundaria aguadulce",
+      "fecha": "Falta una asignatura para terminar el Ciclo formativo."
+    },
+    {
+      "estado": "reglada",
+      "titulo": "TÉCNICO SUPERIOR EN SISTEMAS ELECTROTÉCNICOS Y AUTOMATIZADOS.",
+      "centro": "Instituto de Educación Secundaria San José Obrero",
+      "fecha": "13-05-1994"
+    }
+  ],
+  "trabajos": [
+    {
+      "empresa": "NOVASOFT INGENIERIA, S.L.",
+      "descripcion": "Mantenimiento de sistemas.   Montaje y reparación de sistemas informáticos.  Instalación  de red UTP y fibra. ",
+      "fecha": "01-08-2009"
+    },
+    {
+      "empresa": "VITELCOM  MOBILE TECHOLOGY S.A.",
+      "descripcion": "Técnico Especialista en montaje y reparación de componentes de telefonía móvil.",
+      "fecha": "01-08-2004"
+    },
+    {
+      "empresa": "Anovo - ADPG ETT, SL.",
+      "fecha": "01-02-2004",
+      "descripcion": "Técnico Especialista en  montaje y reparación   de  componentes de telefonía móvil"
+    },
+    {
+      "empresa": "COCA COLA S.A.",
+      "descripcion": "TCOCA COLA S.A.  Auxiliar de producción desempeñando funciones de supervisión y control de calidad.",
+      "fecha": "2003 – 2004"
+    },
+    {
+      "empresa": "FUJITSU ICL ESPAÑA S.A.",
+      "descripcion": "Montaje y reparaciones  de cajeros automáticos",
+      "fecha": "01-02-2004"
+    },
+    {
+      "empresa": "SAN MIGUEL FABRICA DE CERVEZA.",
+      "descripcion": "Auxiliar de producción en la cadena de montaje, desempeñando funciones de supervisión y control de calidad",
+      "fecha": "1996 – 1999"
+    }
+  ],
+  "cursos": [
+    {
+      "curso": "IFCT0610 - ADMINISTRACIÓN Y PROGRAMACIÓN EN SISTEMAS DE PLANIFICACIÓN DE RECURSOS EMPRESARIALES Y DE GESTIÓN DE RELACIONES CON CLIENTES. ",
+      "centro": "Grupo Euroformac",
+      "duracion": "(Del 26/06/2024 al 21/11/2024) 650 horas.",
+      "descripcion": "Uso de Power BI para análisis y visualización de datos"
+    },
+    {
+      "curso": "IFCD106 - INGENIERÍA DEL SOFTWARE NATIVO PARA LA NUBE.",
+      "centro": "Centro Público de Formación Remedios Rojo",
+      "duracion": "210 horas",
+      "descripcion": "Realización de proyectos utilizando Spring Boot."
+    },
+    {
+      "curso": "EXPERTO EN JAVA CON SPRING MVC",
+      "centro": "Arelance",
+      "duracion": "210 horas",
+      "descripcion": "Realización de proyectos utilizando Spring Boot."
+    },
+    {
+      "curso": "DESARROLLO WEB AVANZADO PHP",
+      "centro": "Cenec",
+      "duracion": "60 horas",
+      "descripcion": "Ejercicio de php."
+    },
+    {
+      "curso": "IFCT0410 - CERTIFICADO DE PROFESIONALIDAD:  - Administración y diseño de redes departamentales.",
+      "centro": "Centro Liber Formación",
+      "duracion": "215 horas",
+      "descripcion": "Trabajando con redes virtuales y pruebas."
+    },
+    {
+      "curso": "CERTIFICADO DE PROFESIONALIDAD: IFC297_2 - Confección y Publicación de Páginas Web",
+      "centro": "Centro de Formación: FOREM (2014).",
+      "duracion": "580 horas",
+      "descripcion": "Realización de proyecto con html5, css3 y javascript."
+    },
+    {
+      "curso": "Windows Server 2008 Applications Infrastructure – Network Infrastructure",
+      "centro": "Impartido por ANFORA. (2011).",
+      "duracion": "280 horas",
+      "descripcion": "Curso sobre administración de redes y aplicaciones en Windows Server"
+    },
+    {
+      "curso": "Experto en Soporte y Mantenimiento de Sistemas Informáticos.",
+      "centro": "Impartido por el Servicio Andaluz de Empleo.",
+      "duracion": "600 horas",
+      "descripcion": "Especialista en soporte y mantenimiento de sistemas informáticos,"
+    },
+    {
+      "curso": "Diseño y Modificación de Planos en 2D y 3D.",
+      "centro": "Impartido por Instituto de Formación y Estudios Sociales.",
+      "duracion": "214 horas",
+      "descripcion": "Diseño y creación de planos con AUTOCAD 2008"
+    },
+    {
+      "curso": "Instalación Mantenimiento y Reparación de Equipos Informáticos",
+      "centro": "Impartido por la Fundación Formación y Empleo.",
+      "duracion": "60 horas",
+      "descripcion": "Reparación y mantenimiento de equipos informaticos."
+    },
+    {
+      "curso": "Aplicaciones informáticas de Gestión",
+      "centro": "Curso impartido por la Consejería de Empleo y Desarrollo Tecnológico.",
+      "duracion": "300 horas",
+      "descripcion": "Curso sobre aplicaciones de gestión para optimizar procesos empresariales y mejorar la productividad."
+    },
+    {
+      "curso": "Técnico Mantenimiento de Equipos Basados en Microprocesadores",
+      "centro": "Curso de FPO impartido por el Centro Autesel de Málaga.",
+      "duracion": "520 horas",
+      "descripcion": "Curso de técnico en mantenimiento de equipos basados en microprocesadores, optimizando rendimiento."
+    }
+  ],
+  "informatica": [
+    {
+      "titulo": "Sistemas Operativos y Hardware",
+      "desarrollo": "Experiencia en la instalación, administración ymantenimiento de diversos sistemas operativos y hardware"
+    },
+    {
+      "titulo": "Programación",
+      "desarrollo": "Conocimientos en desarrollo con Java utilizando Spring Boot con Angular empleando TypeScript."
+    },
+    {
+      "titulo": "Bases de Datos",
+      "desarrollo": "Competencia en la gestión de bases de datos y consultas en MySQL."
+    },
+    {
+      "titulo": "Análisis de Datos",
+      "desarrollo": "Uso de Power BI para análisis y visualización de datos."
+    },
+    {
+      "titulo": "Redes",
+      "desarrollo": "Instalación y administración de redes informáticas y la resolución de problemas."
+    }
+  ],
+  "otros": [
+    { "titulo": "Carnet de conducir B1" },
+    { "titulo": "Flexibilidad de horarios" },
+    { "titulo": "Idioma inglés nivel medio" },
+    { "titulo": "Vehículo propio" }
+  ]
+}

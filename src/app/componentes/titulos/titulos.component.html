@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row total">
+    <div class="col-3"></div>
+    <div class="col-6 derecha">
+      <div class="d-flex justify-content-center fs-1 m-3">Formación Reglada</div>
+    </div>
+    <div class="col-3 d-flex justify-content-center align-items-center izquierda">
+      <app-fecha></app-fecha>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-4 fondo"><app-aside></app-aside></div>
+
+    <div class="col-8 fondo">
+      <div class="row">
+        <div class="col-12" *ngIf="titulo$ | async as data">
+          <div class="card mt-5 contenedor_card" *ngFor="let titulo of data.titulos">
+            <div class="card-body">
+              <h5 class="card-title fs-4">{{ titulo.titulo }}</h5>
+              <p class="card-text"><strong>Centro: </strong>{{ titulo.centro }}</p>
+              <p class="card-text"><strong>Fecha de finalización: </strong>{{ data.fecha }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
