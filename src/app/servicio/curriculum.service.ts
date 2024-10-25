@@ -10,6 +10,6 @@ export class CurriculumService {
   private readonly _http = inject(HttpClient)
 
   getDatos(): Observable<any> {
-    return this._http.get<any>('/json/db.json')
+    return this._http.get<any>('assets/json/db.json')
   }
 }
