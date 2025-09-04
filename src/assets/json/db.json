@@ -1,0 +1,213 @@
+{
+  "titulos": [
+    {
+      "estado": "reglada",
+      "titulo": "Ciclo formativo de Grado Superior Desarrollo de Aplicaciones multiplataforma.",
+      "centro": "Instituto de Educación Secundaria aguadulce",
+      "fecha": "28-06-2025",
+       "ver_titulo":"titulo_GS_DAM.png"
+    },
+    {
+      "estado": "reglada",
+      "titulo": "Ciclo formativo de Grado Superior Desarrolo de aplicaciones WEB",
+      "centro": "Instituto de Educación Secundaria aguadulce",
+      "fecha": "18-06-2021",
+      "ver_titulo":"titulo_GS_DAW.png"
+    },
+    {
+      "estado": "reglada",
+      "titulo": "Formación Profesional de Segundo Grado – Rama Electricidad y Electrónica Especialidad: Máquinas Eléctricas",
+      "centro": "Instituto de Educación Secundaria San José Obrero",
+      "fecha": "13-05-1994",
+       "ver_titulo":"fp_segundo_grado_electricidad.png"
+    }
+  ],
+  "trabajos": [
+    {
+      "empresa": "BEBYTE TECNOLOGIA SL",
+      "descripcion": "Durante mi colaboración participé en el desarrollo de un proyecto enfocado en la creación de un sistema CRUD, integrando una arquitectura  con MongoDB como base de datos. ",
+      "fecha": "05-08-2025"
+    },
+    {
+      "empresa": "NOVASOFT INGENIERIA, S.L.",
+      "descripcion": "Mantenimiento de sistemas.   Montaje y reparación de sistemas informáticos.  Instalación  de red UTP y fibra. ",
+      "fecha": "01-08-2009"
+    },
+    {
+      "empresa": "VITELCOM  MOBILE TECHOLOGY S.A.",
+      "descripcion": "Técnico Especialista en montaje y reparación de componentes de telefonía móvil.",
+      "fecha": "21-05-2008"
+    },
+    {
+      "empresa": "Anovo - ADPG ETT, SL.",
+      "fecha": "01-02-2004",
+      "descripcion": "Técnico Especialista en  montaje y reparación   de  componentes de telefonía móvil"
+    },
+    {
+      "empresa": "COCA COLA S.A.",
+      "descripcion": "TCOCA COLA S.A.  Auxiliar de producción desempeñando funciones de supervisión y control de calidad.",
+      "fecha": "2003 – 2004"
+    },
+    {
+      "empresa": "FUJITSU ICL ESPAÑA S.A.",
+      "descripcion": "Montaje y reparaciones  de cajeros automáticos",
+      "fecha": "01-02-2004"
+    },
+    {
+      "empresa": "SAN MIGUEL FABRICA DE CERVEZA.",
+      "descripcion": "Auxiliar de producción en la cadena de montaje, desempeñando funciones de supervisión y control de calidad",
+      "fecha": "1996 – 1999"
+    }
+  ],
+  "cursos": [
+    {
+      "curso": "IFCD0210 DESARROLLO DE APLICACIONES CON TECNOLOGÍAS WEB ",
+      "centro": "Grupo Alce Formación",
+      "duracion": "(Del 24/02/2025 al 05/08/2025) 590 horas.",
+      "descripcion": "Curso práctico en desarrollo web con HTML, CSS, JavaScript, reutilización de componentes, diseño adaptativo y conexión con bases de datos.",
+      "ver_titulo":"pendiente_de_subir.png"
+    },
+    {
+      "curso": "IFCT0610 - ADMINISTRACIÓN Y PROGRAMACIÓN EN SISTEMAS DE PLANIFICACIÓN DE RECURSOS EMPRESARIALES Y DE GESTIÓN DE RELACIONES CON CLIENTES. ",
+      "centro": "Grupo Euroformac",
+      "duracion": "(26/06/2024 al 21/11/2024) 650 horas.",
+      "descripcion": "Este curso está diseñado para instalar, configurar, administrar y programar sistemas ERP-CRM, herramientas clave en la gestión moderna de empresas",
+        "certificado": "Certificado profesional oficial emitido por el Ministerio de Educación y Formación Profesional, registrado en el Registro Estatal de Certificados Profesionales (fecha de emisión: 02/09/2025). Válido para el ejercicio profesional en el ámbito nacional.",
+      "ver_titulo":"administacion_crm_original.png"
+    },
+    {
+      "curso": "IFCD106 - INGENIERÍA DE SOFTWARE NATIVO PARA LA NUBE.",
+      "centro": "Formación Remedios Rojo",
+      "duracion": "(12/06/2023 al 28/07/2023) 210 horas",
+      "descripcion": "Diseñar y construir soluciones web nativas para la nube, aplicando herramientas actuales y principios sólidos de ingeniería.",
+      "ver_titulo":"nativo_para_nube.png"
+    },
+    {
+      "curso": "EXPERTO EN JAVA CON SPRING MVC",
+      "centro": "Arelance",
+      "duracion": "(10/10/2018 al 21/12/2018) 210 horas",
+      "descripcion": "Desarrolla aplicaciones web utilizando Spring Boot y Spring MVC, aplicando buenas prácticas de ingeniería de software, patrones de diseño. Construyendo proyectos reales con Java, desde la arquitectura hasta el despliegue en entornos cloud, integrando herramientas como Maven, Git, JUnit.",
+      "ver_titulo":"spring_mvc.png"
+    },
+    {
+      "curso": "DESARROLLO WEB AVANZADO PHP",
+      "centro": "Cenec",
+      "duracion": "60 horas",
+      "descripcion": "Desarrollo de aplicaciones web avanzadas con PHP, integrando bases de datos, seguridad y herramientas.",
+      "ver_titulo":"pendiente_de_subir.png"
+    },
+    {
+      "curso": "IFCT0410 - CERTIFICADO DE PROFESIONALIDAD:  - Administración y diseño de redes departamentales.",
+      "centro": "Centro Liber Formación",
+      "duracion": "(01/06/2015 al 28/12/2015) 530 horas",
+      "descripcion": "Diseño y administración de redes departamentales, trabajando con redes virtuales, configuración, seguridad y resolución de incidencias en entornos reales.",
+      "ver_titulo":"diseño_redes_departamentales.png"
+    },
+      {
+      "curso": "MF0950_2 - Construcción de Páginas Web",
+      "centro": "Centro de Formación: FOREM.",
+      "duracion": "(12/05/2014 al 27/06/2014) 210 horas",
+      "descripcion": "Aprender a crear, integrar y publicar páginas web profesionales utilizando HTML5, CSS3 y JavaScript, aplicando criterios de usabilidad, accesibilidad y diseño técnico",
+      "ver_titulo":"contruccion_paginas_web.png"
+    },
+    {
+      "curso": "CERTIFICADO DE PROFESIONALIDAD: IFC297_2 - Confección y Publicación de Páginas Web",
+      "centro": "Centro de Formación: FOREM (2014).",
+      "duracion": "580 horas",
+      "descripcion": "Aprender a crear, integrar y publicar páginas web profesionales utilizando HTML5, CSS3 y JavaScript, aplicando criterios de usabilidad, accesibilidad y diseño técnico",
+      "ver_titulo":"pendiente_de_subir.png"
+    },
+    {
+      "curso": "Windows Server 2008 Applications Infrastructure – Network Infrastructure",
+      "centro": "Impartido por ANFORA. (2011).",
+      "duracion": "280 horas",
+      "descripcion": "Curso técnico para administrar redes y aplicaciones en Windows Server 2008, incluyendo seguridad, servicios web, acceso remoto y alta disponibilidad.",
+      "ver_titulo":"pendiente_de_subir.png"
+    },
+    {
+      "curso": "IFC9300 Experto en Soporte y Mantenimiento de Sistemas Informáticos.",
+      "centro": "Servicio Andaluz de Empleo.",
+      "duracion": "(18/06/2008 al 14/11/2008) 600 horas",
+      "descripcion": "Mantenimiento de sistemas informáticos, gestionando hardware, software, redes y resolución de incidencias.",
+      "ver_titulo":"mantenimiento_sistemas_informaticos.png"
+    },
+    {
+      "curso": "Diseño y Modificación de Planos en 2D y 3D.",
+      "centro": "Formación y Estudios Sociales.",
+      "duracion": "(26/11/2007 al 01/02/2008) 214 horas",
+      "descripcion": "Diseñar y modificar planos técnicos en 2D y 3D utilizando AutoCAD 2008, aplicando criterios de precisión, estructura y funcionalidad",
+      "ver_titulo":"autocad2d3d.png"
+    },
+    {
+      "curso": "Instalación Mantenimiento y Reparación de Equipos Informáticos",
+      "centro": "Impartido por la Fundación Formación y Empleo.",
+      "duracion": "60 horas",
+      "descripcion": "Instalar, mantener y reparar equipos informáticos, gestionando hardware, software y resolviendo incidencias en entornos técnicos reales.",
+      "ver_titulo":"pendiente_de_subir.png"
+    },
+    {
+      "curso": "Aplicaciones informáticas de Gestión",
+      "centro": "Consejería de Empleo y Desarrollo Tecnológico.",
+      "duracion": "300 horas",
+      "descripcion": "Curso sobre aplicaciones de gestión para optimizar procesos empresariales y mejorar la productividad.",
+      "ver_titulo":"pendiente_de_subir.png"
+    },
+    {
+      "curso": "Técnico Mantenimiento de Equipos Basados en Microprocesadores",
+      "centro": "Formación FPO en Autesel",
+      "duracion": "(16/12/1998 al 18/05/1998) 520 horas",
+      "descripcion": "Curso de técnico en mantenimiento de equipos basados en microprocesadores, optimizando rendimiento.",
+      "ver_titulo":"basados_microprocesadores.png"
+    },
+       {
+      "curso": "Técnico reparador de sistemas de sonido.",
+      "centro": "Formación FPO en Autesel",
+      "duracion": "(13/06/1997 al 31/10/1997) 430 horas",
+      "descripcion": "Curso técnico en reparación de sistemas de sonido, con formación en diagnóstico, ajuste de equipos, electrónica básica y técnicas de soldadura para componentes de audio.",
+      "ver_titulo":"reparador_sistemas_sonido.png"
+    },
+      {
+      "curso": "Técnico Mantenimiento de automatas programables.",
+      "centro": "Formación FPO en Autesel.",
+      "duracion": "(09/10/1995 al 16/02/1995) 430 horas",
+      "descripcion": "Curso técnico sobre mantenimiento de autómatas programables, con formación en programación mediante PC, lógica secuencial, configuración de entradas/salidas y diagnóstico de sistemas automatizados industriales.",
+      "ver_titulo":"automatas_programables.png"
+    }
+  ],
+  "informatica": [
+    {
+      "titulo": "Sistemas Operativos y Hardware",
+      "desarrollo": "Instalación, administración y mantenimiento de diversos sistemas operativos (Windows, Linux, macOS) y equipos físicos, asegurando entornos estables, seguros y optimizados para el rendimiento"
+    },
+    {
+      "titulo": "Programación",
+      "desarrollo": "Desarrollo de aplicaciones utilizando Java con Spring Boot, integradas con interfaces modernas en Angular y TypeScript. Esta combinación permite construir soluciones escalables, seguras y orientadas al usuario."
+    },
+    {
+      "titulo": "Bases de Datos",
+      "desarrollo": "Gestión de bases de datos relacionales como MySQL y trabajos con sistemas no relacionales como MongoDB. Estructuración y manipulación de datos en formato JSON, facilitando la conexión entre sistemas y la eficiencia en el almacenamiento."
+    },
+    {
+      "titulo": "Análisis de Datos",
+      "desarrollo": "Utilización de herramientas como Power BI para transformar datos en información útil. Realizamos análisis visuales que apoyan la toma de decisiones estratégicas, detectando patrones, tendencias y oportunidades de mejora."
+    },
+    {
+      "titulo": "Redes",
+      "desarrollo": "Instalación, configuración y administración de redes informáticas, garantizando conectividad segura y eficiente. Se resuelven las incidencias técnicas y optimizamos el rendimiento de la infraestructura de red."
+    },
+    {
+      "titulo": "Ciberseguridad",
+      "desarrollo": "Implementación de políticas de seguridad informática, gestión de firewalls, control de accesos y protección contra amenazas. Conocimientos en auditorías de seguridad, cifrado de datos y normativas como GDPR (Reglamento General de Protección de Datos)."
+    }
+  ],
+  "interes": [
+    { "detalle": "Permiso de conducción B1" },
+    { "detalle": "Disponibilidad para horarios flexibles" },
+    { "detalle": "Idioma inglés nivel medio" },
+    { "detalle": "Vehículo propio para desplazamientos" },
+   {
+  "contenido": "He desarrollado un sitio web como Curriculum Vitae utilizando Angular 18.  El uso de componentes reutilizables permite evitar la duplicación de datos.  Los datos que presenta el sitio están almacenados en un archivo JSON, el cual actúa como base de datos, y son recuperados de manera eficiente a través de servicios inyectables (Inject), garantizando una estructura organizada y limpia.\n\nLa página está organizada en tres partes principales: aside, section y nav.  En el aside, muestro mis datos personales,\nmientras que en la section se presenta la información principal de mi Curriculum Vitae.  El nav contiene el sistema de routing, que permite navegar de manera eficiente entre las diferentes secciones de la página sin necesidad de recargarla.\n\nAdemás, en esta área he añadido un componente que muestra la fecha y hora actuales en tiempo real,\nactualizándose continuamente."
+}
+
+  ]
+}

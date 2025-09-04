@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="row">
+    <div class="col-3 derecha"></div>
+    <div class="col-6 text-center centro">
+      <div class="fs-1 m-3">{{informatica}}</div>
+    </div>
+    <div
+      class="col-3 d-flex justify-content-center align-items-center izquierda"
+    >
+      <app-fecha></app-fecha>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-4">
+      <app-aside></app-aside>
+    </div>
+  <div class="col-8">
+  <div class="row">
+    <div class="col-12">
+      @if (datos() && datos().informatica) {
+        @let dato = datos();
+        @if (dato.informatica.length > 0) {
+          <div class="row">
+            @for (item of dato.informatica; track item.titulo) {
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">{{ item.titulo }}</h5>
+                    <p class="card-text">{{ item.desarrollo }}</p>
+                  </div>
+                </div>
+              </div>
+            } 
+          </div>
+        } @else {
+          <p class="text-muted">No hay títulos disponibles.</p>
+        } 
+      } @else {
+        <p class="text-danger">No se pudo cargar el archivo JSON.</p>
+      } 
+    </div>
+  </div>
+</div>
+
+    <!--fin de la columna 8-->
+  </div>
+</div>

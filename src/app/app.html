@@ -1,0 +1,81 @@
+@if(mostrarMenu()){
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-2 m-2" routerLink="titulos">Curriculum Vitae</a>
+
+    <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item active">
+          <a
+            class="nav-link ms-5 fs-4"
+            routerLink="titulos"
+            routerLinkActive="active"
+            >Titulos</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link ms-5 fs-4"
+            routerLink="trabajos"
+            routerLinkActive="active"
+            >Trabajos</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link ms-5 fs-4"
+            routerLink="cursos"
+            routerLinkActive="active"
+            >Cursos</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link ms-5 fs-4"
+            routerLink="informatica"
+            routerLinkActive="active"
+            >Informática</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link ms-5 fs-4"
+            routerLink="datos"
+            routerLinkActive="active"
+          >
+            <span class="d-none d-xl-inline">Datos de interés</span>
+            <span class="d-xl-none">Datos</span>
+          </a>
+        </li>
+      </ul>
+
+      <nav class="navbar navbar-dark bg-dark px-3">
+        <div class="d-flex align-items-center">
+          <button class="btn btn-primary me-3" (click)="cerrarSesion()">
+            Cerrar sesión
+          </button>
+        </div>
+      </nav>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <div class="fs-1">X</div>
+      </button>
+    </nav>
+  </div>
+</nav>
+}
+
+<router-outlet />

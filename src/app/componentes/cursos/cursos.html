@@ -1,0 +1,105 @@
+<div class="container">
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col-6 derecha">
+      <div class="d-flex justify-content-center fs-1 m-3">
+        {{titulo_cursos}}
+      </div>
+    </div>
+    <div
+      class="col-3 d-flex justify-content-center align-items-center izquierda"
+    >
+      <app-fecha></app-fecha>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-4"><app-aside></app-aside></div>
+
+    <div class="col-8">
+      <div class="row">
+        <div class="col-12">
+          @if (datos() && datos().cursos) { @let dato=datos(); @if
+          (dato.cursos.length >0) {
+          <div class="row">
+            @for(item of dato.cursos; track item){
+            <div class="col-md-12 mb-3">
+              <div class="card">
+                <div class="card-body contenedor_card">
+                  <h5 class="card-title">{{item.curso}}</h5>
+                  <p class="text-muted mb-0">{{item.descripcion}}</p>
+                  @if((item.certificado)){
+                  <h6 class="mt-1">Certificación oficial</h6>
+                  <p class="text-muted mb-0">{{item.certificado}}</p>
+                  }
+                  <small class="card-text mt-2 d-block">
+                    {{item.centro}} - {{item.duracion}}
+                  </small>
+                  <!-- Botón para abrir el modal -->
+                  <div class="text-end mt-2">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-primary"
+                      data-bs-toggle="modal"
+                      [attr.data-bs-target]="'#modal_' + item.ver_titulo"
+                    >
+                      Ver título
+                    </button>
+                  </div>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    [id]="'modal_' + item.ver_titulo"
+                    tabindex="-1"
+                    [attr.aria-labelledby]="'label_' + item.ver_titulo"
+                    aria-hidden="true"
+                    data-bs-scroll="true"
+                  >
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5
+                            class="modal-title"
+                            [id]="'label_' + item.ver_titulo"
+                          >
+                            {{ item.curso }}
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Cerrar"
+                          ></button>
+                        </div>
+                        <div class="modal-body text-center">
+                          <img
+                            [src]="'assets/titulos/' + item.ver_titulo"
+                            [alt]="item.titulo"
+                            class="img-fluid rounded shadow"
+                          />
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Cerrar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Fin del modal -->
+                </div>
+              </div>
+            </div>
+            }
+          </div>
+          } }
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
