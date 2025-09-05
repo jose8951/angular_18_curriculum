@@ -1,17 +1,20 @@
-import { Routes } from '@angular/router'
-import { TitulosComponent } from './componentes/titulos/titulos.component'
-import { TrabajosComponent } from './componentes/trabajos/trabajos.component'
-import { CursosComponent } from './componentes/cursos/cursos.component'
-import { RelacionadoComponent } from './componentes/relacionado/relacionado.component'
-import { OtrosComponent } from './componentes/otros/otros.component'
+import { Routes } from '@angular/router';
+import { TitulosComponent } from './componentes/titulos/titulos';
+import { TrabajosComponent } from './componentes/trabajos/trabajos';
+import { DatosComponent } from './componentes/datos/datos';
+import { InformaticaComponent } from './componentes/informatica/informatica';
+import { CursosComponent } from './componentes/cursos/cursos';
+import {LoginComponent} from './componentes/login/login';
+import { authGuard } from './auth-guard';
+
 
 export const routes: Routes = [
-  { path: 'titulos', component: TitulosComponent },
-  { path: 'trabajos', component: TrabajosComponent },
-  { path: 'cursos', component: CursosComponent },
-  { path: 'relacionado', component: RelacionadoComponent },
-  { path: 'otros', component: OtrosComponent },
-  { path: '', redirectTo: '/titulos', pathMatch: 'full' },
-  // { path: '', pathMatch: 'full', redirectTo: '/titulos' },
-  // { path: '**', pathMatch: 'full', redirectTo: '/titulos' } // Corrección aquí
-]
+  {path: 'login', component: LoginComponent},
+  { path: 'cursos', component: CursosComponent, canActivate:[authGuard] },
+  { path: 'datos', component: DatosComponent, canActivate:[authGuard] },
+  { path: 'informatica', component: InformaticaComponent, canActivate:[authGuard] },
+  { path: 'titulos', component: TitulosComponent, canActivate:[authGuard] },
+  { path: 'trabajos', component: TrabajosComponent, canActivate:[authGuard] },
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
+   { path: '**', redirectTo: 'login' }, // Ruta comodín para errores
+];

@@ -1,1 +1,24 @@
+
+
 /* You can add global styles to this file, and also import other style files */
+body{
+background-color: #f4f4f4;
+padding-right: 0 !important;
+}
+
+body.modal-open {
+  padding-right: 0 !important;
+  overflow-y: auto !important;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
