@@ -2,7 +2,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand fs-2 m-2" routerLink="titulos">Curriculum Vitae</a>
+    <a class="navbar-brand fs-2 m-2" routerLink="titulos">{{title}}</a>
 
     <nav class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -11,6 +11,7 @@
             class="nav-link ms-5 fs-4"
             routerLink="titulos"
             routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
             >Titulos</a
           >
         </li>
